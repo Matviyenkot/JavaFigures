@@ -35,7 +35,7 @@ public class Trapeze extends Figure {
     }
 
     public String draw(){
-        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+ ", Середня лінія: "+ getMid() + ", Висота: "+ getHeight() + ", Колір: "+ getColor());
+        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+ " кв.од. " + ", Середня лінія: "+ getMid() + " од. " + ", Висота: "+ getHeight() + " од. " + ", Колір: "+ getColor());
     }
 
 }

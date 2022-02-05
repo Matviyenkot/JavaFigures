@@ -7,7 +7,7 @@ public class Main {
 
         String[] colors = {"Синій", "Жовтий", "Червоний", "Зелений", "Чорний"};
 
-        int countOfFigures = 1 + (int) (Math.random() * 5);
+        int countOfFigures = 1 + (int) (Math.random() * 20);
         String[] figures = new String[countOfFigures];
 
         for (int i = 1; i <= countOfFigures; i++) {

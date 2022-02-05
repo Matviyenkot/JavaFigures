@@ -30,6 +30,6 @@ public class Triangle extends Figure {
     }
 
     public String draw(){
-        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+ ", Гіпотенуза: "+ getHyp()+ ", Колір: "+ getColor());
+        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+" кв.од. " +  ", Гіпотенуза: "+ getHyp()+ " од. " + ", Колір: "+ getColor());
     }
 }

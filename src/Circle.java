@@ -15,6 +15,6 @@ public class Circle extends Figure {
     }
 
     public String draw(){
-        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+ ", Радіус: "+ getRadius()+ ", Колір: "+ getColor());
+        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+" кв.од. " +  ", Радіус: "+ getRadius()+ " од. " + ", Колір: "+ getColor());
     }
 }

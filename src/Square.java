@@ -17,6 +17,6 @@ public class Square extends Figure {
     }
 
     public String draw(){
-        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+ ", Сторона: "+ getBorder()+ ", Колір: "+ getColor());
+        return ("Фігура: "+ getName()+ ", Площа: "+ getArea()+ " кв.од. " + ", Сторона: "+ getBorder()+ " од. " + ", Колір: "+ getColor());
     }
 }
